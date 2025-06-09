@@ -1,0 +1,1 @@
+<?php echo date('Y'); ?> © Gradepulse.| All Right Reserved.| Team: codethriveiconsult@gmail.com.

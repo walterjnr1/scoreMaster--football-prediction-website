@@ -1,0 +1,167 @@
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .navbar {
+            background-color: #1e1e1e;
+        }
+        .nav-link,
+        .navbar-brand {
+            color: #fff;
+        }
+        .nav-link:hover {
+            color: #ffa500;
+        }
+        .hero {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .btn-accent {
+            background-color: #ffa500;
+            color: #000;
+        }
+        .section-card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .blog-post,
+        .prediction-card {
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .cta,
+        .subscribe {
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .navbar-logo {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .footer {
+            background-color: #1e1e1e;
+            color: #aaa;
+            padding: 30px 0 10px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #ffa500;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        /* Image slider styles */
+        .footballer-slider {
+            max-width: 900px;
+            margin: 40px auto 0 auto;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+        .footballer-slider .carousel-item img {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .footballer-slider .carousel-caption {
+            background: rgba(30, 30, 30, 0.7);
+            border-radius: 8px;
+            padding: 16px 24px;
+        }
+        @media (max-width: 768px) {
+            .footballer-slider .carousel-item img {
+                height: 220px;
+            }
+        }
+        /* Table style for upcoming matches */
+        #upcomingMatchesTable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #upcomingMatchesTable th,
+        #upcomingMatchesTable td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: left;
+            color: #fff;
+        }
+        #upcomingMatchesTable th {
+            background-color: #333;
+        }
+        #upcomingMatchesTable tbody tr:hover {
+            background-color: #222;
+        }
+        .loading {
+            color: #ffa500;
+            font-style: italic;
+            text-align: center;
+            padding: 15px;
+        }
+        /* Table style for Other Games */
+        .other-games-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .other-games-table th,
+        .other-games-table td {
+            border: 1px solid #444;
+            padding: 8px 10px;
+            color: #fff;
+        }
+        .other-games-table th {
+            background-color: #333;
+        }
+        .other-games-table tbody tr:hover {
+            background-color: #222;
+        }
+        /* Booking code card */
+        .booking-card {
+            background-color: #232323;
+            border-radius: 10px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            border: 1px solid #333;
+        }
+        .booking-code-label {
+            font-weight: bold;
+            color: #ffa500;
+        }
+        .booking-code-value {
+            font-family: monospace;
+            font-size: 1.2em;
+            color: #fff;
+            margin-left: 8px;
+        }
+        /* Modal custom style */
+        .modal-content {
+            background-color: #1e1e1e;
+            color: #fff;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+        .modal-header {
+            border-bottom: 1px solid #333;
+        }
+        .modal-footer {
+            border-top: 1px solid #333;
+        }
+        .form-control,
+        .form-control:focus {
+            background-color: #232323;
+            color: #fff;
+            border: 1px solid #444;
+        }
+        .form-label {
+            color: #ffa500;
+        }

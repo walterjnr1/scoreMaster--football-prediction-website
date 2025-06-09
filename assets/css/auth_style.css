@@ -1,0 +1,116 @@
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+    .navbar {
+        background-color: #1e1e1e;
+    }
+    .nav-link,
+    .navbar-brand {
+        color: #fff;
+    }
+    .nav-link:hover {
+        color: #ffa500;
+    }
+    .login-header,
+    .otp-header {
+        text-align: center;
+        padding: 60px 20px 30px 20px;
+    }
+    .login-header h1,
+    .otp-header h1 {
+        color: #ffa500;
+        margin-bottom: 10px;
+    }
+    .login-card {
+        background-color: #1e1e1e;
+        border: 1px solid #333;
+        border-radius: 12px;
+        padding: 40px 30px 30px 30px;
+        max-width: 400px;
+        margin: 0 auto 30px auto;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    }
+    .otp-card {
+        background-color: #1e1e1e;
+        border: 2px solid #333;
+        border-radius: 12px;
+        padding: 40px 30px 30px 30px;
+        max-width: 600px;
+        margin: 0 auto 30px auto;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    }
+    .form-label {
+        color: #ffa500;
+    }
+    .form-control,
+    .otp-box {
+        background-color: #232323;
+        color: #fff;
+        border: 1px solid #333;
+    }
+    .form-control:focus,
+    .otp-box:focus {
+        border-color: #ffa500;
+        box-shadow: none;
+        background-color: #232323;
+        color: #fff;
+    }
+    .btn-login,
+    .btn-verify {
+        background-color: #ffa500;
+        border: none;
+        color: #000;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 6px;
+        width: 100%;
+    }
+    .btn-login:hover,
+    .btn-verify:hover {
+        background-color: #ff8800;
+    }
+    .login-links,
+    .otp-links {
+        margin-top: 18px;
+        text-align: center;
+        font-size: 0.97em;
+    }
+    .login-links a,
+    .otp-links a {
+        color: #ffa500;
+        text-decoration: none;
+    }
+    .login-links a:hover,
+    .otp-links a:hover {
+        text-decoration: underline;
+    }
+    .otp-input-group {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 24px;
+    }
+    .otp-box {
+        width: 58px;
+        height: 56px;
+        font-size: 2em;
+        text-align: center;
+        border-radius: 8px;
+        outline: none;
+        transition: border-color 0.2s;
+    }
+    .footer {
+        background-color: #1e1e1e;
+        color: #aaa;
+        padding: 30px 0 10px 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .footer a {
+        color: #ffa500;
+        text-decoration: none;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
