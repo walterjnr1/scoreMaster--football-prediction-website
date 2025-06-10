@@ -1,7 +1,7 @@
 <?php
 include('../inc/config.php');
 if (empty($_SESSION['user_id'])) {
-  header("Location: ../user_login");
+  header("Location: ../login");
 
 }
 ?>
@@ -37,7 +37,7 @@ if (empty($_SESSION['user_id'])) {
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="index">Home</a></li>
               <li class="breadcrumb-item active">404 Error Page</li>
             </ol>
           </div>
@@ -91,7 +91,6 @@ if (empty($_SESSION['user_id'])) {
 </div>
 <!-- ./wrapper -->
 
-<?php include('partials/bottom-script.php') ;?>
 
 </body>
 </html>

@@ -1,8 +1,8 @@
 <?php
 include('../inc/config.php');
 if (empty($_SESSION['user_id'])) {
-  header("Location: ../Auth/user_login");
-  exit;
+    header("Location: ../login");
+
 }
 
 $school_id = $_SESSION['school_id'];

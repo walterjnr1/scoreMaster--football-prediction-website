@@ -2,7 +2,7 @@
 include('../inc/config.php');
 
 if (empty($_SESSION['user_id'])) {
-    header("Location: ../Auth/user_login");
+  header("Location: ../login");
 }
 ?>
 <!DOCTYPE html>

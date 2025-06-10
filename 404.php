@@ -69,70 +69,16 @@
 <body>
 
    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img
-                    src="uploadImage/logo.png"
-                    alt="ScoreMaster Logo"
-                    width="92"
-                    height="53"
-                    class="navbar-logo"
-                />
-                ScoreMaster
-            </a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto align-items-lg-center flex-wrap">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#predictions">Predictions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#fixtures">Upcoming Matches</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" id="contactUsLink">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing Plan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="tips.html">Expert Tips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="results.html">Results</a></li>
-                    <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
-                    <li class="nav-item"><a class="nav-link" href="why-premium.html">Why Premium?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://wa.me/08067361023" target="_blank">WhatsApp</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://t.me/yourtelegramgroup" target="_blank">Join Telegram</a></li>
-                    <!-- Dropdown for More -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="moreDropdown">
-                            <li><a class="dropdown-item" href="#">Today's 1.5 Predictions</a></li>
-                            <li><a class="dropdown-item" href="#">Today's 2.5 Predictions</a></li>
-                            <li><a class="dropdown-item" href="#">Today's BTS/BTTS Predictions</a></li>
-                            <li><a class="dropdown-item" href="#">Today's Draw Predictions</a></li>
-                            <li><a class="dropdown-item" href="#">Tomorrow's Football Predictions</a></li>
-                            <li><a class="dropdown-item" href="#">Yesterday's Football Predictions</a></li>
-                            <li><a class="dropdown-item" href="contact.html">Support</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg">
+           <?php include('partials/navbar.php'); ?>
+     </nav>
 
   <!-- 404 Error Content -->
   <div class="container error-container">
     <h1>404</h1>
     <h2>Oops! Page Not Found</h2>
     <p>We couldn’t find the page you were looking for. It might have been moved or deleted.</p>
-    <a href="index.php" class="btn-back">Go Back Home</a>
+    <a href="index" class="btn-back">Go Back Home</a>
   </div>
 
   <!-- Footer -->

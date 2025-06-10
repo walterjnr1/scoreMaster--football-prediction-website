@@ -2,4 +2,4 @@ RewriteEngine On
 Options -Indexes
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-ErrorDocument 404 http://localhost/prediction_app/404
+ErrorDocument 404 http://localhost/scoremaster/404

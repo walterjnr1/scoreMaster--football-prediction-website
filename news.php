@@ -49,17 +49,9 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">ScoreMaster</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon text-white"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-              <?php include('partials/navbar.php'); ?>
-      </div>
-    </div>
-  </nav>
+ <nav class="navbar navbar-expand-lg">
+           <?php include('partials/navbar.php'); ?>
+     </nav>
 
   <!-- News Section -->
   <div class="container news-container">

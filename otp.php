@@ -95,7 +95,7 @@ if (isset($_POST['btnverify'])) {
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg">
    <div class="container">
-  <a class="navbar-brand d-flex align-items-center" href="#">
+  <a class="navbar-brand d-flex align-items-center" href="index">
     <img
      src="uploadImage/logo.png"
      alt="ScoreMaster Logo"

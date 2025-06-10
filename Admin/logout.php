@@ -1,9 +1,8 @@
 <?php
 include('../inc/config.php'); 
-if(empty($_SESSION['user_id']))
-    {
-        header("Location: ../Auth/user_login");
-    } 
+if (empty($_SESSION['user_id'])) {
+  header("Location: ../login");
+}
 
 //Automatic logout
 $t=time();

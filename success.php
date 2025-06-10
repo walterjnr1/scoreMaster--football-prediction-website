@@ -78,32 +78,9 @@
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg">
-     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img
-             src="uploadImage/logo.png"
-             alt="ScoreMaster Logo"
-             width="92"
-             height="53"
-             class="navbar-logo"
-          />
-          ScoreMaster
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-                                 <?php include('partials/navbar.php'); ?>
-
-        </div>
-     </div>
-  </nav>
+<nav class="navbar navbar-expand-lg">
+           <?php include('partials/navbar.php'); ?>
+     </nav>
 
   <!-- Success Message -->
   <div class="container">

@@ -3,7 +3,7 @@ include('../inc/email.php');
 include('../inc/config.php'); 
 
 if (empty($_SESSION['user_id'])) {
-  header("Location: ../Auth/user_login");
+  header("Location: ../login");
 }
 
 // Fetch user's email and current password hash
